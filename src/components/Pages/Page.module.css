@@ -1,0 +1,35 @@
+.container__centerX,
+.container__startX {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: auto;
+  margin-top: 10rem;
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+.container__centerX div,
+.container__startX div {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-right: 1.2rem;
+  min-height: 3rem;
+  white-space: nowrap;
+  position: relative;
+
+}
+
+
+.active::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  margin: auto auto 0 auto;
+  background-color: #ff0000;
+  width: 2rem;
+  height: .7rem;
+  border-radius: .5rem;
+}
+
+
+/* container__center X */

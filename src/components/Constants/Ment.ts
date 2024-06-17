@@ -1,0 +1,18 @@
+export const MenuData: { id: number; title: string }[] = [
+  { id: 0, title: 'Women' },
+  { id: 1, title: 'Mother & Child' },
+  { id: 2, title: 'Shoes &Bag' },
+  { id: 3, title: 'Man' },
+  { id: 4, title: 'Electronics' },
+  { id: 5, title: 'Appliances' },
+  { id: 6, title: 'Office & School Supplies' },
+  { id: 7, title: 'Automotive' },
+  { id: 8, title: 'Sports & Outdoors' },
+  { id: 9, title: 'Home & Furniture' },
+  { id: 10, title: 'Tools & Home Improvement' },
+  { id: 11, title: 'Cosmetics' },
+  { id: 12, title: 'Business, Industry & Science' },
+  { id: 13, title: 'Arts, Crafts & Sewing' },
+  { id: 14, title: 'Patio, Lawn & Garden' },
+  { id: 15, title: 'Toys & Games' },
+];
